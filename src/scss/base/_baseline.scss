@@ -1,0 +1,39 @@
+
+
+body{
+  background-color: $bg-color;
+  color: $font-color;
+  font-family: 'Trocchi', serif !important;
+  // padding-top: 58px;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover{
+  color: $orange;
+  text-decoration: none;
+}
+
+.display-4{
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .display-4 {
+        font-size:1.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h5, .lead {
+        font-size:1rem;
+    }
+}
+
+// Disable WP Adminbar
+
+#wpadminbar {
+  display: none;
+}

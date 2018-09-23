@@ -1,0 +1,105 @@
+/*
+Theme Name: FMIO
+Theme URI:
+Author: Chris Morrall
+Author URI: http://chris@chrismorrall.me/
+Description: Resposive theme using Bootsrap 4.0 developed for Food Matters
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+body {
+  background-color: #333;
+  color: #FFF;
+  font-family: 'Trocchi', serif !important; }
+
+a {
+  color: #fff; }
+
+a:hover {
+  color: #ff8000;
+  text-decoration: none; }
+
+.display-4 {
+  font-size: 3rem; }
+
+@media screen and (max-width: 768px) {
+  .display-4 {
+    font-size: 1.8rem; } }
+
+@media screen and (max-width: 768px) {
+  h5, .lead {
+    font-size: 1rem; } }
+
+#wpadminbar {
+  display: none; }
+
+tn-outline-light:hover {
+  color: #ff8000; }
+
+.footer-items {
+  margin-top: 4px;
+  margin-bottom: 4px; }
+
+intro {
+  color: #ff8000; }
+
+#home-section {
+  background: url("img/background.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .card-form {
+    opacity: 0.8; }
+  #home-section .fa {
+    color: #008ed6;
+    background: #FFF;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
+
+#aims-section .fa, #work-section .fa {
+  color: #ff8000;
+  background: #F8F9FA;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+#about-section .fa, #support-section .fa {
+  color: #008ed6;
+  background: #FFF;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+#main-footer .fa {
+  color: #FFF;
+  font-size: 1.5rem; }
+
+#main-footer .fa:hover {
+  color: #ff8000; }
+
+#white-bg-link {
+  color: #868e96; }
+
+#white-bg-link:hover {
+  color: #ff8000; }
+
+.nav-link:focus, .nav-link:hover {
+  color: #ff8000 !important; }
+
+.navbar {
+  border-bottom: #ff8000 3px solid;
+  opacity: 0.8; }
+
+.modal-content {
+  background: #888; }

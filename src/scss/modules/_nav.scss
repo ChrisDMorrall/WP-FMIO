@@ -1,0 +1,8 @@
+.nav-link:focus, .nav-link:hover {
+  color: $orange !important;
+}
+
+.navbar{
+  border-bottom: $orange 3px solid;
+  opacity: 0.8;
+}

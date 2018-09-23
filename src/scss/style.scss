@@ -1,0 +1,22 @@
+/*
+Theme Name: FMIO
+Theme URI:
+Author: Chris Morrall
+Author URI: http://chris@chrismorrall.me/
+Description: Resposive theme using Bootsrap 4.0 developed for Food Matters
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+// Baseline
+@import 'base/variables';
+@import 'base/baseline';
+
+//Modules
+@import 'modules/btn';
+@import 'modules/footer';
+@import 'modules/header';
+@import 'modules/front-page';
+@import 'modules/nav';
+@import 'modules/form';
